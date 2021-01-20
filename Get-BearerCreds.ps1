@@ -8,7 +8,6 @@ function Get-BearerCreds
         [String]$Password 
         )
     
-
 $EndPoint = "https://api.openprovider.eu/v1beta/auth/login"
 
 ##Configure Payload

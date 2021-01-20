@@ -29,7 +29,7 @@ additional_data = $IdnScript
 application_mode = "preregistration"
 domains = $DomListArray
 with_price = $true 
-with_whois = $true }
+with_whois = $true } # returns no result. Seems to have been depreciated.
 $DomBodyJson = $DomBody | ConvertTo-Json
 
 $Bearer = Get-BearereCreds
